@@ -1,0 +1,16 @@
+﻿Detailed Estimate,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+Initial_Cost_Estimate > Udacity Project 02 - Initial Cost,US East (N. Virginia),,Amazon EC2 ,0,1489.857,17878.28,USD,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t3.large), Pricing strategy (Standard Reserved Instances 3yr  No Upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Initial_Cost_Estimate > Udacity Project 02 - Initial Cost,US East (N. Virginia),,Amazon EC2 ,0,1282.4,15388.8,USD,"Tenancy (Dedicated Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (m4.large), Pricing strategy (On-Demand Utilization: 24 Hours/Day), Enable monitoring (enabled), EBS Storage amount (3000 GB), DT Inbound: All other regions (3000 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Initial_Cost_Estimate > Udacity Project 02 - Initial Cost,US East (N. Virginia),,Amazon RDS for MySQL,0,1428.82,17145.84,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (3000 GB), Quantity (1), Instance type (db.m1.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Number of hours running on Amazon RDS Extended Support (12 per month)"
+Initial_Cost_Estimate > Udacity Project 02 - Initial Cost,US East (N. Virginia),,Amazon Elastic IP,0,0,0,USD,"Number of EC2 instances (4), Number of EIPs per instance (2)"
+Initial_Cost_Estimate > Udacity Project 02 - Initial Cost,US East (N. Virginia),,S3 Standard,0,1150,13800,USD,S3 Standard storage (50000 GB per month)
+Initial_Cost_Estimate > Udacity Project 02 - Initial Cost,US East (N. Virginia),,AWS Data Transfer,0,0,0,USD,"DT Inbound: Internet (50000 GB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+Initial_Cost_Estimate > Udacity Project 02 - Initial Cost,US East (N. Virginia),,Application Load Balancer,0,1200.43,14405.16,USD,Number of Application Load Balancers (1)
+Initial_Cost_Estimate > Udacity Project 02 - Initial Cost,US East (N. Virginia),,Network Load Balancer,0,509.18,6110.16,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (100 GB per hour), Average number of new TCP connections (5000 per second), Average TCP connection duration (500 seconds), Processed bytes per NLB for UDP (10 GB per hour), Average UDP Flow duration (60 seconds), Average number of new UDP Flows (5000 per second)"
+Initial_Cost_Estimate > Udacity Project 02 - Initial Cost,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,257.85,3094.2,USD,Number of NAT Gateways (1)
+Initial_Cost_Estimate > Udacity Project 02 - Initial Cost,US East (N. Virginia),,Amazon CloudWatch,0,20.04507,240.54,USD,"Number of Metrics (includes detailed and custom metrics) (50), GetMetricData: Number of metrics requested (7), Standard Logs: Data Ingested (5 GB), Logs Delivered to CloudWatch Logs: Data Ingested (5 GB)"
+,,,,,,,,
+,,,,Estimate summary,,,,
+,,,,Upfront cost,Monthly cost,Total 12 months cost,Currency,
+,,,,0,7338.58207,88062.98,USD,
